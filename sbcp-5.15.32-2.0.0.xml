@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Include NXP Manifest file. -->
-  <include name="imx/imx-5.15.32-2.0.0.xml"/>
+  <include name="imx-5.15.32-2.0.0.xml"/>
 
   <!-- Include PTIC Manifest file. -->
   <include name="ptic-5.15.32-2.0.0.xml"/>
