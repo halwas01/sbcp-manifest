@@ -3,7 +3,7 @@
 
   <!-- PTIC Bitbucket Server -->
   <!-- <remote fetch="https://bitbucket.prodrive.nl/scm/ptic203904" name="ptic"/> -->
-  <remote fetch="https://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@github.com/halwas01" 	name="ptic"/>
+  <remote fetch="https://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@github.com/halwas01" 	name="ptic"/>
   <!-- PTIC repositories -->
   <!-- <project name="meta-ptic.git" path="sources/meta-ptic" remote="ptic" revision="refs/tags/v1.1.0" upstream="kirkstone"/> -->
   <project name="meta-ptic.git" path="sources/meta-ptic" remote="ptic" revision="master" upstream="kirkstone"/>
