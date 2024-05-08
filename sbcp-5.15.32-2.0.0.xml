@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Include NXP Manifest file. -->
+  <include name="imx/imx-5.15.32-2.0.0.xml"/>
+
+  <!-- Include PTIC Manifest file. -->
+  <include name="ptic-5.15.32-2.0.0.xml"/>
+
+  <!-- Prodrive Technologies Single Board Computer remote -->
+  <!-- <remote fetch="ssh://git@bitbucket.prodrive.nl:7999/sbcp220003" name="prodrive-sbcp"/> -->
+  <remote fetch="https://github.com/halwas01" 	name="prodrive-sbcp"/>   
+
+  <!-- Prodrive Single Board Computer Plus layers-->
+  <!-- <project name="meta-prodrive-sbcp.git" path="sources/meta-prodrive-sbcp" remote="prodrive-sbcp" revision="refs/tags/5.0.0"> -->
+  <project name="meta-prodrive-sbcp.git" path="sources/meta-prodrive-sbcp" remote="prodrive-sbcp" revision="master">
+    <linkfile dest="imx-setup-release.sh" src="imx-setup-release.sh"/>
+  </project>
+
+</manifest>

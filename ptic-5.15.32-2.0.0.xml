@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- PTIC Bitbucket Server -->
+  <!-- <remote fetch="https://bitbucket.prodrive.nl/scm/ptic203904" name="ptic"/> -->
+  <remote fetch="https://github.com/halwas01" 	name="ptic"/>
+
+  <!-- PTIC repositories -->
+  <project name="meta-ptic.git" path="sources/meta-ptic" remote="ptic" revision="master" upstream="kirkstone"/>
+
+</manifest>
